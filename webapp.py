@@ -22,5 +22,3 @@ for index, task in enumerate(tasks):
 task_input = st.text_input(label="", placeholder="Enter a To-do",
                          on_change=add_task, key="new_task")
 
-
-st.session_state
